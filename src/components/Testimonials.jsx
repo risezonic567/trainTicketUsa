@@ -9,7 +9,7 @@ export default function Testimonials() {
         { 
             name: '— Jessica M., Boston', 
             role: 'Frequent Traveler', 
-            text: '“I needed a last-minute ticket from New York to Boston and found a great option in just a few minutes. The booking process was simple and the confirmation came instantly. Super convenient!”', 
+            text: '“I needed a last-minute ticket from New York to Boston and found a great option in just a few minutes. The booking process was simple and the confirmation came instantly. Super convenient!”.', 
             rating: 5,
             image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop'
         },

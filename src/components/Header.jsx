@@ -3,7 +3,7 @@ import { Link, Links, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Train, Search, Ticket } from 'lucide-react'
 import TrainRouteSearch from './TrainRouteSearch'
-import logo from "../../public/lOGO-Final-Train-Tickets-usa.png"
+import logo from "/lOGO-Final-Train-Tickets-usa.png"
 export default function Header() {
   const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState(false)
