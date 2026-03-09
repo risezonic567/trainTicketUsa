@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
                 <div className='absolute top-0  left-15'>
                   <h5 className='text-xl text-white ps-2'>Phone:-</h5>
-                  <NavLink to={'tel:8663061219'} className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>8663061219</NavLink>
+                  <NavLink to={'tel:8663061219'} className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>(866)306-1219</NavLink>
                 </div>
               </div>
               <div className='relative mt-6'>
@@ -48,7 +48,7 @@ export default function Footer() {
                 </div>
                 <div className='absolute top-0  left-15'>
                   <h5 className='text-xl text-white ps-2 '>Whatsapp:-</h5>
-                  <NavLink to={'https://wa.me/8663061219'} className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>8663061219</NavLink>
+                  <NavLink to={'https://wa.me/8663061219'} className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>(866)306-1219</NavLink>
                 </div>
               </div>
 
