@@ -43,7 +43,37 @@ export default function Offers() {
                     <title>Train Ticket Deals USA | Cheap Train Travel Offers</title>
                     <meta name="description" content="Find the latest train ticket deals USA travelers love. Save on family trips, holiday travel, and cheap train bookings across the country." />
                    <link rel="canonical"href="http://www.trainticketsusa.com/train-booking-deals " />
+                   <script type="application/ld+json">
+                   {`
+                   
+{
+"@context":"https://schema.org",
+"@type":"Service",
+"name":"Train Ticket Deals USA",
+"url":"http://www.trainticketsusa.com/train-booking-deals",
+"description":"Find affordable train ticket deals and travel offers across the United States.",
+"provider":{
+"@type":"Organization",
+"name":"Train Tickets USA",
+"url":"https://www.trainticketsusa.com/",
+"sameAs":[
+"https://www.facebook.com/trainticketsusa/",
+"https://www.instagram.com/trainticketusa/",
+"https://in.pinterest.com/trainticketsusa/",
+"https://www.youtube.com/@TrainTicketsUSA/",
+"https://www.linkedin.com/company/us-railway-booking/"
+]
+},
+"areaServed":{
+"@type":"Country",
+"name":"United States"
+}
+}
+
+                   `}
+                   </script>
                 </Helmet>
+                
 
             {/* === HERO SECTION === */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden">

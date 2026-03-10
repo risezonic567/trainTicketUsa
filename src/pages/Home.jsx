@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Helmet } from "react-helmet";
 import SearchBox from '../components/SearchBox'
 import FeatureCard from '../components/FeatureCard'
@@ -40,7 +40,73 @@ export default function Home() {
         <title>Book Train Tickets in USA | Cheap & Easy Online Booking</title>
         <meta name="description" content="Book train tickets in USA quickly and securely. Compare routes, check availability, and find cheap train tickets online with easy reservation options." />
         <link rel="canonical" href="https://www.trainticketsusa.com" />
+        <script type="application/ld+json">
+        {`
+        
+{
+"@context":"https://schema.org",
+"@graph":[
+{
+"@type":"Organization",
+"name":"Train Tickets USA",
+"url":"https://www.trainticketsusa.com/",
+"logo":"https://www.trainticketsusa.com/lOGO-Final-Train-Tickets-usa.png",
+"description":"Train Tickets USA is an online platform helping travelers search train routes and book train tickets across the United States.",
+"sameAs":[
+"https://www.facebook.com/trainticketsusa/",
+"https://www.instagram.com/trainticketusa/",
+"https://in.pinterest.com/trainticketsusa/",
+"https://www.youtube.com/@TrainTicketsUSA/",
+"https://www.linkedin.com/company/us-railway-booking/"
+],
+"contactPoint":{
+"@type":"ContactPoint",
+"telephone":"+1-866-306-1219",
+"contactType":"customer support",
+"areaServed":"US",
+"availableLanguage":"English"
+}
+},
+{
+"@type":"LocalBusiness",
+"name":"Train Tickets USA",
+"image":"https://www.trainticketsusa.com/lOGO-Final-Train-Tickets-usa.png",
+"url":"https://www.trainticketsusa.com/",
+"telephone":"+1-866-306-1219",
+"address":{
+"@type":"PostalAddress",
+"streetAddress":"17662 Irvine Blvd, Suite 9",
+"addressLocality":"Tustin",
+"addressRegion":"CA",
+"postalCode":"92780",
+"addressCountry":"US"
+},
+"areaServed":"United States",
+"priceRange":"$$"
+},
+{
+"@type":"WebSite",
+"name":"Train Tickets USA",
+"url":"https://www.trainticketsusa.com/",
+"potentialAction":{
+"@type":"SearchAction",
+"target":"https://www.trainticketsusa.com/?s={search_term_string}",
+"query-input":"required name=search_term_string"
+}
+},
+{
+"@type":"WebPage",
+"name":"Book Train Tickets in the USA",
+"url":"https://www.trainticketsusa.com/",
+"description":"Search train routes, compare schedules, and book train tickets across the United States with Train Tickets USA."
+}
+]
+}
+
+        `}
+        </script>
       </Helmet>
+      
       <HeroSlider />
       <div className='w-full bg-blue-50 opacity-100 h-auto py-5'>
         <div className='p-3 sm:p-4 md:p-5'>

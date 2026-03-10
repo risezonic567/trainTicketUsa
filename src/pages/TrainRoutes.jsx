@@ -18,6 +18,30 @@ export default function TrainRoutes() {
                     <title>Best Train Routes in USA | Explore All Train Routes</title>
                     <meta name="description" content="Discover the best train routes in USA. Explore popular train journeys, compare ticket options, and plan your train travel across the country." />
                     <link rel="canonical" href="http://www.trainticketsusa.com/all-train-routes" />
+                    <script type="application/ld+json">
+                    {`
+{
+"@context":"https://schema.org",
+"@type":"CollectionPage",
+"name":"All Train Routes in the USA",
+"url":"http://www.trainticketsusa.com/all-train-routes",
+"description":"Explore popular train routes across the United States and find the best train travel options.",
+"publisher":{
+"@type":"Organization",
+"name":"Train Tickets USA",
+"logo":"https://www.trainticketsusa.com/lOGO-Final-Train-Tickets-usa.png"
+},
+"about":{
+"@type":"Service",
+"name":"Train Route Information",
+"provider":{
+"@type":"Organization",
+"name":"Train Tickets USA"
+}
+}
+}
+`}
+</script>
                 </Helmet>
                 <div className="w-full h-full ">
                     <div className=' overflow-hidden relative'>

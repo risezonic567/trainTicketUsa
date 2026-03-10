@@ -36,6 +36,29 @@ export default function About() {
         <title>Train Ticket Booking Website USA | About Train Tickets USA</title>
         <meta name="description" content="Learn about our train ticket booking website in USA. We help travelers book train tickets online easily, securely, and at affordable prices." />
         <link rel="canonical" href="https://www.trainticketsusa.com/about-train-tickets-usa" />
+        <script type="application/ld+json">
+        {`
+{
+"@context":"https://schema.org",
+"@type":"AboutPage",
+"name":"About Train Tickets USA",
+"url":"https://www.trainticketsusa.com/about-train-tickets-usa",
+"description":"Learn about Train Tickets USA, a platform helping travelers search routes and book train tickets across the United States.",
+"publisher":{
+"@type":"Organization",
+"name":"Train Tickets USA",
+"logo":"https://www.trainticketsusa.com/lOGO-Final-Train-Tickets-usa.png",
+"sameAs":[
+"https://www.facebook.com/trainticketsusa/",
+"https://www.instagram.com/trainticketusa/",
+"https://in.pinterest.com/trainticketsusa/",
+"https://www.youtube.com/@TrainTicketsUSA/",
+"https://www.linkedin.com/company/us-railway-booking/"
+]
+}
+}
+`}
+</script>
       </Helmet>
 
             {/* --- 1. CINEMATIC HERO SECTION --- */}
