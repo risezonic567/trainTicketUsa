@@ -29,7 +29,7 @@ export default function FAQ() {
         <Helmet>
           <title>How to Book Train Tickets Online in USA | FAQ</title>
           <meta name="description" content="Learn how to book train tickets online in USA. Find answers about seat availability, ticket reservations, payments, and travel policies." />
-          <link rel="canonical" href="https://www.trainticketsusa.com/disclaimer" />
+          <link rel="canonical" href="https://www.trainticketsusa.com/faq" />
         </Helmet> 
         <div className="max-w-5xl mx-auto px-4 py-12">
 
