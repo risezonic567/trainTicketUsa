@@ -21,7 +21,7 @@ export default function TrainRoutes() {
                 </Helmet>
                 <div className="w-full h-full ">
                     <div className=' overflow-hidden relative'>
-                        <img src="/images/All Train Routes in the USA banner.jpg.jpeg" alt="" className='w-full h-full object-cover' />
+                        <img src="/images/All Train Routes in the USA banner.jpg.jpeg" alt="All Train Routes in the USA banner" className='w-full h-full object-cover' />
                         <div className='absolute top-50 left-150 text-center m-auto'>
                             <h2 className=' text-blue-100 max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
                             </h2>
@@ -42,7 +42,7 @@ export default function TrainRoutes() {
                         </p>
                     </div>
                     <div className='order-1 md:order-1 rounded-2xl relative border group overflow-hidden transition'>
-                        <img src="/images/All Train Routes in the USA 1.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="" />
+                        <img src="/images/All Train Routes in the USA 1.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="All Train Routes in the USA" />
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ export default function TrainRoutes() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
                     <div className='relative border group overflow-hidden rounded-2xl transition'>
                         <div>
-                            <img src="/images/New York to Boston.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="" />
+                            <img src="/images/New York to Boston.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="New York to Boston" />
                             <span className="inline-flex absolute top-0 items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">New York</span>
                             <span className="inline-flex absolute top-0 right-0 items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">Boston</span>
                         </div>
@@ -66,7 +66,7 @@ export default function TrainRoutes() {
                     </div>
                     <div className='relative border group overflow-hidden rounded-2xl transition'>
                         <div>
-                            <img src="/images/Chicago to Detroit.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="" />
+                            <img src="/images/Chicago to Detroit.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="Chicago to Detroit" />
                             <span className="inline-flex absolute top-0 items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">Chicago</span>
                             <span className="inline-flex absolute top-0 right-0 items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">Detroit</span>
                         </div>
@@ -82,7 +82,7 @@ export default function TrainRoutes() {
 
                     <div className='relative border group overflow-hidden rounded-2xl transition'>
                         <div>
-                            <img src="/images/Los Angeles to San Diego.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="" />
+                            <img src="/images/Los Angeles to San Diego.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="Los Angeles to San Diego" />
                             <span className="inline-flex absolute top-0 items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">Los Angeles</span>
                             <span className="inline-flex absolute top-0 right-0 items-center gap-2 text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">San Diego</span>
 
@@ -191,7 +191,7 @@ export default function TrainRoutes() {
                     </div>
 
                     <div className='order-1 md:order-1 rounded-2xl relative border group overflow-hidden transition'>
-                        <img src="/images/Why Choose Rail Travel.jpg.jpeg" className='w-full h-full group-hover:scale-110' alt="" />
+                        <img src="/images/Why Choose Rail Travel.jpg.jpeg" className='w-full h-full group-hover:scale-110' alt="Why Choose Rail Travel" />
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@ export default function TrainRoutes() {
 
                     </div>
                     <div className='order-2 md:order-2 rounded-2xl relative border group overflow-hidden transition'>
-                        <img src="/images/City to city.jpg.jpeg" className='w-full h-full group-hover:scale-110' alt="" />
+                        <img src="/images/City to city.jpg.jpeg" className='w-full h-full group-hover:scale-110' alt="/City to city" />
                     </div>
                 </div>
             </div>

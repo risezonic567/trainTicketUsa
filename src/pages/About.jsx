@@ -130,7 +130,7 @@ export default function About() {
                 <div className='max-w-7xl py-6 px-3 mx-auto'>
                     <div className='grid grid-cols-1 md:grid-cols-2'>
                         <div className='order-1 md:order-1 relative border rounded-2xl group overflow-hidden transition '>
-                            <img src="/images/about Our Company & What We Do.jpg.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-110' />
+                            <img src="/images/about Our Company & What We Do.jpg.jpeg" alt="Our Company & What We Do" className='h-full w-full object-cover group-hover:scale-110' />
                         </div>
                         <div className='order-2 md:order-2 ms-3'>
                             <p className='text-xl text-justify  py-2'>
@@ -174,7 +174,7 @@ export default function About() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-10 py-5">
                     <div className="border rounded-2xl">
                         <div className="relative group  rounded-2xl overflow-hidden transition">
-                            <img src="/images/mission image.jpg.jpeg" className='h-full w-full object-cover group-hover:scale-110' alt="" />
+                            <img src="/images/mission image.jpg.jpeg" className='h-full w-full object-cover group-hover:scale-110' alt="mission image" />
                         </div>
                         <div className='p-4 sm:p-5 md:p-6'>
                             <h3 className='text-center text-lg sm:text-xl md:text-2xl'>Our Mission</h3>
