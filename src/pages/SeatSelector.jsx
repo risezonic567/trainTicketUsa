@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import seatsData from '../data/seats.json'
 import { motion } from 'framer-motion'
-
+import { Helmet } from "react-helmet";
 export default function SeatSelector() {
   const location = useLocation()
   const navigate = useNavigate()

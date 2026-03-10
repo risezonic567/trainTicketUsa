@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { BadgePercent, GraduationCap, Gift, Users, Sparkles, Link } from "lucide-react";
-
+import { Helmet } from "react-helmet";
 export default function Offers() {
     const offers = [
         {

@@ -20,9 +20,9 @@ export default function Header() {
   }, [])
 
   const navLinks = [
-    { name: 'About', path: '/about' },
-    { name: 'Train Routes', path: '/All-train-routes' },
-    { name: 'Deals', path: '/deals&offers' },
+    { name: 'About', path: '/about-train-tickets-usa' },
+    { name: 'Train Routes', path: '/all-train-routes' },
+    { name: 'Deals', path: '/train-booking-deals' },
     {
       name:"Contact Us", path:"/contact-us"
     }
@@ -67,7 +67,7 @@ export default function Header() {
           </div>
 
           {/* CTA Button */}
-          <Link to="/contact">    <button className="ml-4 flex items-center gap-2 px-5 py-2.5 bg-blue-700 hover:bg-blue-800 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-700/20 transition-all hover:scale-105 active:scale-95">
+          <Link to="/contact-us">    <button className="ml-4 flex items-center gap-2 px-5 py-2.5 bg-blue-700 hover:bg-blue-800 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-700/20 transition-all hover:scale-105 active:scale-95">
             <Ticket className="w-4 h-4" />
             Book Tickets
           </button></Link>

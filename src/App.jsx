@@ -46,22 +46,22 @@ export default function App() {
             <AnimatePresence mode="wait" initial={false}>
               <Routes>
                 <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
-                <Route path="/about" element={<PageWrapper>  <About /> </PageWrapper>} />
+                <Route path="/about-train-tickets-usa" element={<PageWrapper>  <About   /> </PageWrapper>} />
                 <Route path="/results" element={<PageWrapper><Results /></PageWrapper>} />
                 <Route path="/seatmap" element={<PageWrapper><SeatSelector /></PageWrapper>} />
                 <Route path="/checkout" element={<PageWrapper><Checkout /></PageWrapper>} />
                 <Route path="/success" element={<PageWrapper><Success /></PageWrapper>} />
                 <Route path="/dashboard" element={<PageWrapper><Dashboard /></PageWrapper>} />
-                <Route path="/deals&offers" element={<PageWrapper><Offers /></PageWrapper>} />
+                <Route path="/train-booking-deals" element={<PageWrapper><Offers /></PageWrapper>} />
                 <Route path="/train-result" element={<PageWrapper><TrainResults /></PageWrapper>} />
-                <Route path="/All-train-routes" element={<PageWrapper><TrainRoutes /></PageWrapper>} />
+                <Route path="/all-train-routes" element={<PageWrapper><TrainRoutes /></PageWrapper>} />
                 <Route path="/privacy-policy" element={<PageWrapper><PrivacyPolicy /></PageWrapper>} />
                 <Route path="/refund-policy" element={<PageWrapper><RefundPolicy /></PageWrapper>} />
                 <Route path="/help-center" element={<PageWrapper><HelpCenter /></PageWrapper>} />
                 <Route path="/terms-conditions" element={<PageWrapper><TermsAndCondition /></PageWrapper>} />
                  <Route path="/contact-us" element={<PageWrapper><ContactUs /></PageWrapper>} />
                  <Route path="/disclaimer" element={<PageWrapper><Disclamer /></PageWrapper>} />
-                <Route path="/contact" element={<PageWrapper><BookNowContact /></PageWrapper>} />
+                <Route path="/contact-us" element={<PageWrapper><BookNowContact /></PageWrapper>} />
               </Routes>
             </AnimatePresence>
           </main>

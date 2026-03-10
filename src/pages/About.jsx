@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Map, Users, Globe, Award, ArrowRight, Train } from 'lucide-react';
+import { Helmet } from "react-helmet";
 import { useNavigate } from 'react-router-dom';
 import video from "../video/train video.mp4";
 export default function About() {

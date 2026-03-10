@@ -1,7 +1,7 @@
 import { Home } from 'lucide-react'
 import React from 'react'
 import { NavLink } from 'react-router'
-
+import { Helmet } from "react-helmet";
 export default function TermsAndCondition() {
   return (
     <>

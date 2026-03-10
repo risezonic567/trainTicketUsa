@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 import SearchBox from '../components/SearchBox'
 import FeatureCard from '../components/FeatureCard'
 import { motion } from 'framer-motion'
@@ -10,7 +11,7 @@ import Testimonials from '../components/Testimonials'
 import TrainSearchBar from '../components/TrainSearchBar'
 import { Link } from 'react-router-dom'
 import Faq from '../components/Faq'
-import { Helmet } from "react-helmet";
+
 export default function Home() {
   return (
 
