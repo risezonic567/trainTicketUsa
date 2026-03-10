@@ -13,7 +13,7 @@ export default function ContactUs() {
                 </Helmet>
                 <div className="w-full h-full ">
                     <div className=' overflow-hidden relative'>
-                        <img src="/images/contactus.jpg.jpeg" alt="" className='w-full h-full object-cover' />
+                        <img src="/images/contactus.jpg.jpeg" alt="contact image" className='w-full h-full object-cover' />
                         <div className='absolute top-50 left-150 text-center m-auto'>
                             <h2 className=' text-blue-100 max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
                             </h2>
