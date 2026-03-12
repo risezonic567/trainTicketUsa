@@ -32,7 +32,7 @@ const faqs = [
 ];
 
 export default function Home() {
-   const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(null);
   return (
 
     <section className="">
@@ -42,6 +42,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.trainticketsusa.com" />
         <script type="application/ld+json">
         {`
+        
 {
 "@context":"https://schema.org",
 "@graph":[
@@ -104,6 +105,7 @@ export default function Home() {
 `}
 </script>
       </Helmet>
+      
       <HeroSlider />
       <div className='w-full bg-blue-50 opacity-100 h-auto py-5'>
         <div className='p-3 sm:p-4 md:p-5'>
@@ -233,45 +235,45 @@ export default function Home() {
       {/* <Faq /> */}
       <div className="max-w-5xl mx-auto px-4 py-12">
 
-          <h2 className="text-2xl md:text-4xl font-bold text-center mb-10">
-            Frequently Asked Questions
-          </h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-10">
+          Frequently Asked Questions
+        </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {faqs.map((item, index) => {
-              const isOpen = openIndex === index;
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {faqs.map((item, index) => {
+            const isOpen = openIndex === index;
 
-              return (
-                <div key={index} className="border rounded-xl overflow-hidden">
+            return (
+              <div key={index} className="border rounded-xl overflow-hidden">
 
-                  <button
-                    onClick={() => setOpenIndex(isOpen ? null : index)}
-                    className={`w-full flex justify-between items-center p-4 md:p-5 text-left font-medium ${isOpen ? "bg-red-400 text-white" : ""}`}
-                  >
-                    <span>{item.q}</span>
+                <button
+                  onClick={() => setOpenIndex(isOpen ? null : index)}
+                  className={`w-full flex justify-between items-center p-4 md:p-5 text-left font-medium ${isOpen ? "bg-red-400 text-white" : ""}`}
+                >
+                  <span>{item.q}</span>
 
 
-                    <span
-                      className={`inline-block text-xl transition-transform duration-300 ${isOpen ? "rotate-45" : "rotate-0"
-                        }`}
-                    >
-                      +
-                    </span>
-                  </button>
-
-                  <div
-                    className={`grid transition-all duration-300 ease-in-out ${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                  <span
+                    className={`inline-block text-xl transition-transform duration-300 ${isOpen ? "rotate-45" : "rotate-0"
                       }`}
                   >
-                    <div className={`overflow-hidden px-4 md:px-5 pb-4 text-gray-600 ${isOpen ? "bg-blue-100 text-dark-400" : ""}`}>
-                      {item.a}
-                    </div>
+                    +
+                  </span>
+                </button>
+
+                <div
+                  className={`grid transition-all duration-300 ease-in-out ${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                    }`}
+                >
+                  <div className={`overflow-hidden px-4 md:px-5 pb-4 text-gray-600 ${isOpen ? "bg-blue-100 text-dark-400" : ""}`}>
+                    {item.a}
                   </div>
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            );
+          })}
         </div>
+      </div>
       {/* CTA Section */}
       <section className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
