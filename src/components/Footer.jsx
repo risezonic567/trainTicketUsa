@@ -145,7 +145,7 @@ export default function Footer() {
               <FaYoutube/>
             </NavLink>
 
-            <NavLink to="https://www.linkedin.com/company/us-railway-booking/" className="hover:text-blue-400 transition">
+            <NavLink to="https://www.linkedin.com/company/train-ticket-usa/" className="hover:text-blue-400 transition">
               <FaLinkedin/>
             </NavLink>
 
