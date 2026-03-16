@@ -24,6 +24,9 @@ import RefundPolicy from './pages/RefundPolicy'
 import Disclamer from './pages/Disclamer'
 import ContactUs from './pages/ContactUs'
 import FAQ from './components/Faq'
+import BlogList from './components/BlogList'
+import BlogDetails from './pages/BlogDetails'
+
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -61,6 +64,8 @@ export default function App() {
                 <Route path="/help-center" element={<PageWrapper><HelpCenter /></PageWrapper>} />
                 <Route path="/terms-conditions" element={<PageWrapper><TermsAndCondition /></PageWrapper>} />
                 <Route path="/faq" element={<PageWrapper><FAQ /></PageWrapper>} />
+                <Route path="/blog" element={<PageWrapper><BlogList /></PageWrapper>} />
+                 <Route path="/blog/:slug" element={<PageWrapper><BlogDetails /></PageWrapper>} />
                  <Route path="/contact-us" element={<PageWrapper><ContactUs /></PageWrapper>} />
                  <Route path="/disclaimer" element={<PageWrapper><Disclamer /></PageWrapper>} />
                 <Route path="/contact-us" element={<PageWrapper><BookNowContact /></PageWrapper>} />

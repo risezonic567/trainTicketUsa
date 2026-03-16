@@ -90,10 +90,10 @@ export default function HeroSlider() {
                                     </span>
 
                                     {/* Title */}
-                                    <h1 className={`text-3xl md:text-5xl font-bold leading-tight text-white transition-all duration-700 delay-200 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                                    <h2 className={`text-3xl md:text-5xl font-bold leading-tight text-white transition-all duration-700 delay-200 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                                         }`}>
                                         {slide.title}
-                                    </h1>
+                                    </h2>
 
                                     {/* Subtitle */}
                                     <p className={`text-lg md:text-xl text-white/80 transition-all duration-700 delay-300 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'

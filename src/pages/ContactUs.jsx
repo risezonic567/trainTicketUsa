@@ -15,8 +15,8 @@ export default function ContactUs() {
                     <div className=' overflow-hidden relative'>
                         <img src="/images/contactus.jpg.jpeg" alt="contact image" className='w-full h-full object-cover' />
                         <div className='absolute top-50 left-150 text-center m-auto'>
-                            <h2 className=' text-blue-100 max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
-                            </h2>
+                            <h1 className=' text-blue-100 max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
+                            </h1>
                         </div>
                     </div>
                 </div>
@@ -32,21 +32,21 @@ export default function ContactUs() {
                             <div className='h-14 w-14 bg-white text-blue-600 rounded-full flex items-center justify-center '>
                                 <MapPin className='text-3xl' />
                             </div>
-                            <h1 className=' text-lg  md:text-xl ms-2'>Address:-</h1>
+                            <h2 className=' text-lg  md:text-xl ms-2'>Address:-</h2>
                             <NavLink className='text-sm sm:text-base text-wrap text-justify font-semibold text-gray-600 mt-2 ms-2'>17662 Irvine Blvd, Suite 9 Tustin, CA 92780</NavLink>
                         </div>
                         <div className='border-0 flex  ms-2 bg-blue-100 z-10 box- p-7 w-full rounded-2xl my-3  shadow-lg shadow-red-500/40 transition duration-300  hover:-translate-x-3 cursor-pointer'>
                             <div className='h-14 w-14 bg-white text-blue-600 rounded-full flex items-center justify-center '>
                                 <Mail className='text-3xl' />
                             </div>
-                            <h1 className=' text-xl sm:text-2xl md:text-3xl ms-2'>Email:-</h1>
+                            <h2 className=' text-xl sm:text-2xl md:text-3xl ms-2'>Email:-</h2>
                             <NavLink className={'ms-2 mt-2 text-blue-800 text-sm  ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'} to={'mailto:support@gmail.com'}>support@gmail.com</NavLink>
                         </div>
                         <div className='flex border-0 bg-blue-100 z-10 box- p-7 w-full rounded-2xl my-3  shadow-lg shadow-red-500/40 transition duration-300  hover:-translate-x-3 cursor-pointer'>
                             <div className='h-14 w-14 bg-white text-blue-600 rounded-full flex items-center justify-center '>
                                 <Phone className='text-3xl' />
                             </div>
-                            <h1 className=' text-xl sm:text-2xl md:text-3xl ms-2'>Phone:-</h1>
+                            <h2 className=' text-xl sm:text-2xl md:text-3xl ms-2'>Phone:-</h2>
                             <NavLink className={'ms-2 mt-2 text-blue-800 text-sm  ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'} to={'tel:8663061219'}>8663061219</NavLink>
                         </div>
 

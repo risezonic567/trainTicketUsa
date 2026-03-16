@@ -58,7 +58,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex gap-4 items-start group">
+            {/* <div className="flex gap-4 items-start group">
               <FaWhatsapp className="text-green-400 text-xl group-hover:scale-110 transition"/>
               <div>
                 <h4 className="font-semibold">Whatsapp</h4>
@@ -69,7 +69,7 @@ export default function Footer() {
                   (866)306-1219
                 </NavLink>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Footer() {
             <li><NavLink to="/contact-us" className="hover:text-red-300">Contact Us</NavLink></li>
             <li><NavLink to="/train-booking-deals" className="hover:text-red-300">Deals</NavLink></li>
             <li><NavLink to="/all-train-routes" className="hover:text-red-300">Train Routes</NavLink></li>
-            <li><NavLink to="/blogs" className="hover:text-red-300">Blog</NavLink></li>
+            <li><NavLink to="/blog" className="hover:text-red-300">Blog</NavLink></li>
             <li><NavLink to="/privacy-policy" className="hover:text-red-300">Privacy Policy</NavLink></li>
             <li><NavLink to="/terms-conditions" className="hover:text-red-300">Terms</NavLink></li>
             <li><NavLink to="/refund-policy" className="hover:text-red-300">Refund & Cancellation</NavLink></li>

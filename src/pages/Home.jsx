@@ -41,8 +41,7 @@ export default function Home() {
         <meta name="description" content="Book train tickets in USA quickly and securely. Compare routes, check availability, and find cheap train tickets online with easy reservation options." />
         <link rel="canonical" href="https://www.trainticketsusa.com" />
         <script type="application/ld+json">
-        {`
-        
+        {`  
 {
 "@context":"https://schema.org",
 "@graph":[
