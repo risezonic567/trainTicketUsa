@@ -161,7 +161,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-2">
             <Copyright size={16}/>
-            2026 US-TrainTicket. All Rights Reserved
+            2026 US-TrainTicket. All Rights Reserved.
           </div>
 
           <p>Your trusted online booking train tickets platform.</p>
