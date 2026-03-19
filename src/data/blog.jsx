@@ -63,8 +63,8 @@ export let blogs = [
 
         <img
           src="/images/blog/New York to Washington DC Train Route.jpg.jpeg"
-          alt=""
-          className="w-full h-full object-cover"
+          alt="New York to Washington DC Train Route"
+          className="w-full h-full"
         />
 
         <h3 className="text-xl font-semibold mt-6 mb-2">How Train Ticket Pricing Actually Works</h3>
@@ -103,8 +103,8 @@ export let blogs = [
         </p>
         <img
           src="/images/blog/Best Time to Book for the Lowest Prices.jpg.jpeg"
-          alt=""
-          className="w-full h-full object-cover"
+          alt="Best Time to Book for the Lowest Prices."
+          className="w-full h-full"
         />
 
 
@@ -137,7 +137,7 @@ export let blogs = [
         <img
           src="/images/blog/Create an image that shows realistic images. Step-by-Step Guide to Booking Your Train Tickets.jpg.jpeg"
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full"
         />
 
         <h3 className="font-semibold mt-4">Searching and Comparing Options</h3>
@@ -192,8 +192,8 @@ export let blogs = [
 
         <img
           src="/images/blog/Making Your Journey Comfortable and Stress-Free.jpg.jpeg"
-          alt=""
-          className="w-full h-full object-cover"
+          alt="Making Your Journey Comfortable and Stress-Free"
+          className="w-full h-full"
         />
 
 
