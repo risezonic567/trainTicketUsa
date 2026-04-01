@@ -23,8 +23,11 @@ export default function  BlogDetails() {
     console.log(post.canonical)
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 pt-32 relative">
-    
-      
+    <Helmet>
+      <title>{post.metaTitle}</title>
+      <meta name="description" content={post.metaDescription}></meta>
+      <link rel="canonical" href={post.canonical} />
+    </Helmet>
       <div className="text-sm text-gray-500 mb-6 flex">
         <span><Link to={"/"}>Home</Link></span> <ArrowRight size={14} className="mt-1" /> <span><Link to={"/blog"}>blog</Link></span> <ArrowRight size={14} className="mt-1" />
         <span className="text-gray-800 font-medium"> {post.category}</span>
