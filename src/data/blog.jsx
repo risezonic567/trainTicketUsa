@@ -261,14 +261,14 @@ export let blogs = [
   {
     id: 2,
     title: "Best Scenic Train Routes in the USA for an Unforgettable Journey",
-    slug: "best-scenic-train-routes-uSA-for-an-unforgettable-journey",
+    slug: "best-scenic-train-routes-usa-for-an-unforgettable-journey",
     author: "About Train Tickets Usa",
     date: "April 2026",
     category: "Best Sceinic Train Routes",
     thumbnail: "/images/blog/Best Scenic Train Routes in the USA for an Unforgettable Journey 2.jpg.jpeg",
     metaTitle: "Best Scenic Train Routes USA for an Unforgettable Journey",
     metaDescription: "Discover the most scenic train routes in the USA, from coastal views to mountain landscapes. Get travel tips and plan your next unforgettable journey.",
-    canonical: "https://www.trainticketsusa.com/blog/best-scenic-train-routes-uSA-for-an-unforgettable-journey",
+    canonical: "https://www.trainticketsusa.com/blog/best-scenic-train-routes-usa-for-an-unforgettable-journey",
     content: (
       <div className="space-y-6 text-gray-700 leading-relaxed">
         <h2 className="text-2xl font-bold mt-8 mb-2">Best Scenic Train Routes in the USA for an Unforgettable Journey </h2>
