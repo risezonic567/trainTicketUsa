@@ -136,7 +136,7 @@ export let blogs = [
 
         <img
           src="/images/blog/Create an image that shows realistic images. Step-by-Step Guide to Booking Your Train Tickets.jpg.jpeg"
-          alt=""
+          alt="Step-by-Step Guide to Booking Your Train Tickets"
           className="w-full h-full"
         />
 
@@ -287,7 +287,7 @@ export let blogs = [
 
            <img
           src="/images/blog/Book Early for Premium Seats 2.jpg.jpeg"
-          alt=""
+          alt="Book Early for Premium Seats"
           className="w-full h-full"
         />
 
@@ -363,12 +363,12 @@ The travellers can enjoy uninterrupted views , making this route one of the <b>b
 
       <p>This journey captures the beauty of wildlife and nature of the USA throughout its journey. </p>
 
-        <img src="/images/blog/Ultimate guide to the most scenic routes of the USA  2.jpg.jpeg" alt="" className="w-full h-full" />
+        <img src="/images/blog/Ultimate guide to the most scenic routes of the USA  2.jpg.jpeg" alt="Ultimate guide to the most scenic routes of the USA" className="w-full h-full" />
 
         <h2 className="text-2xl font-semibold">Tips for Planning the Perfect Scenic Train Trip</h2>
         <p>A scenic train trip is always a great idea. However, it is even better if you are well prepared to take on this journey. Here are some important tips to consider:</p>
 
-        <img src="/images/blog/Tips for Planning the Perfect Scenic Train Trip 2.jpg.jpeg" alt="" className="w-full h-full" />
+        <img src="/images/blog/Tips for Planning the Perfect Scenic Train Trip 2.jpg.jpeg" alt="Tips for Planning the Perfect Scenic Train Trip" className="w-full h-full" />
         
         <h2 className="text-2xl font-semibold">Book Early for Premium Seats</h2>
         <p>
@@ -380,7 +380,7 @@ The travellers can enjoy uninterrupted views , making this route one of the <b>b
 
 <h2 className="text-2xl font-semibold">Select Window or Observation Seats</h2>
 <p>It is always a great idea to select a seat with a view because a scenic train trip is all about enjoying the view from your seat.</p>
-        <img src="/images/blog/Select Window or Observation Seats 2.jpg.jpeg" alt="" className="w-full h-full"/>
+        <img src="/images/blog/Select Window or Observation Seats 2.jpg.jpeg" alt="Select Window or Observation Seats" className="w-full h-full"/>
 
       <h2 className="text-2xl font-semibold">Pack Light but Comfortable</h2>
       <p>It is always important to carry a blanket, earphones, and a camera to enjoy your scenic train trip.</p>
