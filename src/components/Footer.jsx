@@ -40,7 +40,7 @@ export default function Footer() {
               <div>
                 <h4 className="font-semibold">Phone</h4>
                 <NavLink
-                  to={"tel:8663061219"}
+                  to={"tel:+18663061219"}
                   className="text-sm text-gray-300 hover:text-red-300 transition"
                 >
                   (866)306-1219
@@ -63,7 +63,7 @@ export default function Footer() {
               <div>
                 <h4 className="font-semibold">Whatsapp</h4>
                 <NavLink
-                  to={"https://wa.me/8663061219"}
+                  to={"https://wa.me/+18663061219"}
                   className="text-sm text-gray-300 hover:text-red-300 transition"
                 >
                   (866)306-1219
@@ -85,7 +85,7 @@ export default function Footer() {
             <li><NavLink to="/" className="hover:text-red-300">Home</NavLink></li>
             <li><NavLink to="/about-train-tickets-usa" className="hover:text-red-300">About Us</NavLink></li>
             <li><NavLink to="/faq" className="hover:text-red-300">Faq</NavLink></li>
-            <li><NavLink to="/feature" className="hover:text-red-300">Features</NavLink></li>
+            {/* <li><NavLink to="/feature" className="hover:text-red-300">Features</NavLink></li> */}
             <li><NavLink to="/contact-us" className="hover:text-red-300">Contact Us</NavLink></li>
             <li><NavLink to="/train-booking-deals" className="hover:text-red-300">Deals</NavLink></li>
             <li><NavLink to="/all-train-routes" className="hover:text-red-300">Train Routes</NavLink></li>

@@ -11,46 +11,79 @@ export default function ContactUs() {
                     <meta name="description" content="Need help with train booking USA services? Contact our support team for assistance with reservations, availability, and ticket inquiries." />
                   <link rel="canonical"href="https://www.trainticketsusa.com/contact-us" />
                 </Helmet>
-                <div className="w-full h-full ">
+                <div className="w-full ">
                     <div className=' overflow-hidden relative'>
-                        <img src="/images/contactus.jpg.jpeg" alt="contact image" className='w-full h-full object-cover' />
+                        <img src="/images/contactus.jpg.jpeg" alt="contact image" className='w-full h-full brightness-75' />
                         <div className='absolute top-50 left-150 text-center m-auto'>
-                            <h1 className=' text-blue-100 max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
+                            <h1 className=' text-white text-shadow-lg text-shadow-black max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'>Have Any Query please contact us 
                             </h1>
                         </div>
                     </div>
                 </div>
             </section>
-            <div className='max-w-7xl mx-auto py-5 px-4'>
+            <div className='max-w-7xl mx-auto py-10 px-4'>
                 <div className='max-w-3xl m-auto'>
                     <h2 className='text-center text-xl sm:text-2xl md:text-3xl'>Get In Touch</h2>
-                    <p className='text-center text-sm sm:text-base text-gray-600 text-wrap'>Get in touch with our friendly team to get help with train routes, schedules, fares, bookings, and travel planning for a smooth, stress-free journey across the United States today.</p>
+                    <p className='text-center text-sm sm:text-base text-gray-600 text-wrap py-5'>Get in touch with our friendly team to get help with train routes, schedules, fares, bookings, and travel planning for a smooth, stress-free journey across the United States today.</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-6">
-                    <div className='order-1 md:order-1 '>
-                        <div className='border-0 flex  bg-blue-100 z-10 box- p-7 w-full rounded-2xl my-3 shadow-lg shadow-red-500/40 transition duration-300  hover:-translate-x-3 cursor-pointer'>
-                            <div className='h-14 w-14 bg-white text-blue-600 rounded-full flex items-center justify-center '>
-                                <MapPin className='text-3xl' />
-                            </div>
-                            <h2 className=' text-lg  md:text-xl ms-2'>Address:-</h2>
-                            <NavLink className='text-sm sm:text-base text-wrap text-justify font-semibold text-gray-600 mt-2 ms-2'>17662 Irvine Blvd, Suite 9 Tustin, CA 92780</NavLink>
-                        </div>
-                        <div className='border-0 flex  ms-2 bg-blue-100 z-10 box- p-7 w-full rounded-2xl my-3  shadow-lg shadow-red-500/40 transition duration-300  hover:-translate-x-3 cursor-pointer'>
-                            <div className='h-14 w-14 bg-white text-blue-600 rounded-full flex items-center justify-center '>
-                                <Mail className='text-3xl' />
-                            </div>
-                            <h2 className=' text-xl sm:text-2xl md:text-3xl ms-2'>Email:-</h2>
-                            <NavLink className={'ms-2 mt-2 text-blue-800 text-sm  ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'} to={'mailto:support@gmail.com'}>support@gmail.com</NavLink>
-                        </div>
-                        <div className='flex border-0 bg-blue-100 z-10 box- p-7 w-full rounded-2xl my-3  shadow-lg shadow-red-500/40 transition duration-300  hover:-translate-x-3 cursor-pointer'>
-                            <div className='h-14 w-14 bg-white text-blue-600 rounded-full flex items-center justify-center '>
-                                <Phone className='text-3xl' />
-                            </div>
-                            <h2 className=' text-xl sm:text-2xl md:text-3xl ms-2'>Phone:-</h2>
-                            <NavLink className={'ms-2 mt-2 text-blue-800 text-sm  ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'} to={'tel:8663061219'}>8663061219</NavLink>
-                        </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-6">
+                    <div className="grid gap-5">
 
-                    </div>
+  {/* CARD */}
+  <div className="group flex items-start gap-4 p-5 rounded-2xl bg-white/80 backdrop-blur-md shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 border border-gray-100">
+
+    <div className="h-14 w-14 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition">
+      <MapPin className="text-2xl" />
+    </div>
+
+    <div>
+      <h2 className="text-lg font-semibold text-gray-800">Address</h2>
+      <p className="text-sm text-gray-600 mt-1 leading-relaxed">
+        17662 Irvine Blvd, Suite 9 Tustin, CA 92780
+      </p>
+    </div>
+
+  </div>
+
+  {/* EMAIL */}
+  <div className="group flex items-start gap-4 p-5 rounded-2xl bg-white/80 backdrop-blur-md shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 border border-gray-100">
+
+    <div className="h-14 w-14 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition">
+      <Mail className="text-2xl" />
+    </div>
+
+    <div>
+      <h2 className="text-lg font-semibold text-gray-800">Email</h2>
+      <a
+        href="mailto:support@gmail.com"
+        className="text-sm text-blue-600 hover:text-red-500 hover:underline transition mt-1 inline-block"
+      >
+        support@gmail.com
+      </a>
+    </div>
+
+  </div>
+
+  {/* PHONE */}
+  <div className="group flex items-start gap-4 p-5 rounded-2xl bg-white/80 backdrop-blur-md shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 border border-gray-100">
+
+    <div className="h-14 w-14 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition">
+      <Phone className="text-2xl" />
+    </div>
+
+    <div>
+      <h2 className="text-lg font-semibold text-gray-800">Phone</h2>
+      <a
+        href="tel:+18663061219"
+        className="text-sm text-blue-600 hover:text-red-500 hover:underline transition mt-1 inline-block"
+      >
+        +1 866-306-1219
+      </a>
+    </div>
+
+  </div>
+
+</div>
                     <div className="order-2 md:order-2 rounded-2xl relative border bg-white shadow-lg p-6 sm:p-8 overflow-hidden transition ">
                         <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-center">
                             Have Any Query ?

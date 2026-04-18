@@ -1,8 +1,9 @@
 import { useRef } from 'react';
+ import CountUp from "react-countup";
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Map, Users, Globe, Award, ArrowRight, Train } from 'lucide-react';
 import { Helmet } from "react-helmet";
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import video from "../video/train video.mp4";
 export default function About() {
     // const [expanded, setExpanded] = useState(false);
@@ -121,37 +122,57 @@ export default function About() {
 
 
             {/* --- 2. THE STATS STRIP (Glassmorphism) --- */}
-            <section className="relative z-20 -mt-24 px-6 mb-32">
-                <motion.div
-                    initial={{ opacity: 0, y: 100 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                    className="max-w-6xl mx-auto bg-white/80 backdrop-blur-xl border border-white/40 shadow-2xl rounded-4xl p-10 flex flex-col md:flex-row justify-between items-center gap-8 md:divide-x divide-slate-200"
-                >
-                    {[
-                        { label: 'Annual Riders', value: '12.5M', icon: Users },
-                        { label: 'Destinations', value: '500+', icon: Map },
-                        { label: 'Daily Trains', value: '300+', icon: Train },
-                        { label: 'Sustainability', value: '-83% CO₂', icon: Globe },
-                    ].map((stat, idx) => (
-                        <div key={idx} className="flex-1 px-6 text-center md:text-left flex items-center gap-4">
-                            <div className="p-3 bg-blue-50 rounded-full text-blue-600">
-                                <stat.icon size={24} />
-                            </div>
-                            <div>
-                                <h4 className="text-3xl font-bold text-slate-900">{stat.value}</h4>
-                                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">{stat.label}</p>
-                            </div>
-                        </div>
-                    ))}
-                </motion.div>
-            </section>
+          
+
+<section className="relative z-20 -mt-24 px-6 mb-32">
+  <motion.div
+    initial={{ opacity: 0, y: 100 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8 }}
+    className="max-w-6xl mx-auto bg-white/80 backdrop-blur-xl border border-white/40 shadow-2xl rounded-4xl p-10 flex flex-col md:flex-row justify-between items-center gap-8 md:divide-x divide-slate-200"
+  >
+    {[
+      { label: "Annual Riders", value: 12.5, suffix: "M", icon: Users },
+      { label: "Destinations", value: 500, suffix: "+", icon: Map },
+      { label: "Daily Trains", value: 300, suffix: "+", icon: Train },
+      { label: "Sustainability", value: 83, prefix: "-", suffix: "% CO₂", icon: Globe },
+    ].map((stat, idx) => (
+      <div
+        key={idx}
+        className="flex-1 px-6 text-center md:text-left flex items-center gap-4"
+      >
+        <div className="p-3 bg-blue-50 rounded-full text-blue-600">
+          <stat.icon size={24} />
+        </div>
+
+        <div>
+          <h4 className="text-3xl font-bold text-slate-900">
+            <CountUp
+              start={0}
+              end={stat.value}
+              duration={2}
+              decimals={stat.value % 1 !== 0 ? 1 : 0}
+              prefix={stat.prefix || ""}
+              suffix={stat.suffix || ""}
+              enableScrollSpy
+              scrollYProgress
+            />
+          </h4>
+
+          <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+            {stat.label}
+          </p>
+        </div>
+      </div>
+    ))}
+  </motion.div>
+</section>
 
             <section className=''>
-                <h2 className='text-center text-5xl '>Our Company & What We Do</h2>
+                <h2 className='text-center text-3xl font-semibold py-5 '>Our Company & What We Do</h2>
                 <div className='max-w-7xl py-6 px-3 mx-auto'>
-                    <div className='grid grid-cols-1 md:grid-cols-2'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                         <div className='order-1 md:order-1 relative border rounded-2xl group overflow-hidden transition '>
                             <img src="/images/about Our Company & What We Do.jpg.jpeg" alt="Our Company & What We Do" className='h-full w-full object-cover group-hover:scale-110' />
                         </div>
@@ -170,10 +191,10 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <section className='my-5'>
-                <h2 className='text-center text-5xl '>Moving America, One Journey at a Time</h2>
+            <section className='my-5 py-10'>
+                <h2 className='text-center text-3xl font-semibold leading-relaxed '>Moving America, One Journey at a Time</h2>
                 <div className='max-w-7xl py-6 px-3 mx-auto'>
-                    <div className='grid grid-cols-1 md:grid-cols-2'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                         <div className='order-2 md:order-2 relative border rounded-2xl group overflow-hidden transition '>
                             <img src="/images/Moving America, One Journey at a Time.jpg.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-110' />
                         </div>
@@ -194,8 +215,8 @@ export default function About() {
             </section>
             <section>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-10 py-5">
-                    <div className="border rounded-2xl">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-10 py-5">
+                    <div className="border rounded-2xl ">
                         <div className="relative group  rounded-2xl overflow-hidden transition">
                             <img src="/images/mission image.jpg.jpeg" className='h-full w-full object-cover group-hover:scale-110' alt="mission image" />
                         </div>
@@ -300,12 +321,13 @@ export default function About() {
                            Discover comfortable, convenient, and affordable train ticket booking in the USA. Search routes, compare schedules, and plan your journey with ease through our simple online train reservation platform.
 
                         </p>
-                        <button
+                        <NavLink
+                        to={"tel:+18663061219"}
                             onClick={() => navigate('/contact')}
                             className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 hover:scale-105 transition-all shadow-xl"
                         >
                             Book Your Ticket
-                        </button>
+                        </NavLink>
                     </div>
                 </div>
             </section>

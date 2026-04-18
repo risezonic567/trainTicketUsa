@@ -106,24 +106,24 @@ export default function Home() {
       </Helmet>
       
       <HeroSlider />
-      <div className='w-full bg-blue-50 opacity-100 h-auto py-5'>
+      <div className='max-w-7xl mx-auto px-3 bg-blue-50 opacity-100 h-auto py-10'>
         <div className='p-3 sm:p-4 md:p-5'>
-          <h2 className='text-lg sm:text-xl md:text-2xl mb-2 items-center text-center  text-dark'>
+          <h2 className='text-xl sm:text-2xl md:text-3xl mb-2 py-5 items-center text-center font-semibold'>
             Search and Book Train Tickets Online Across the USA
           </h2>
-          <p className='text-justify text-gray-600 text-sm sm:text-base '>
+          <p className=' max-w-3xl mx-auto px-3 text-center text-gray-600 text-sm sm:text-base py-5'>
             Our <b className='text-dark-800'> train ticket booking platform</b> makes planning your trip on the rail system within the USA easy and convenient; use our site to search schedules, compare routes, and search for low-cost tickets (for large metropolitan areas and popular tourist destinations) in just several clicks. Our site offers an excellent way for people to search for both advanced and last-minute tickets and provides you with a level of security that allows you to pay for and completely process your transaction online.
 
           </p>
-          <p className='text-justify my-4 text-gray-600 text-sm sm:text-base '>
+          <p  className=' max-w-3xl mx-auto px-3 text-center text-gray-600 text-sm sm:text-base py-5'>
             <b className='text-dark-800'>Train tickets USA</b> is provided  to help travelers quickly search train tickets in the USA, check availability, and choose the best routes based on schedule, price, and comfort.
           </p>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 py-10">
-        <h2 className='text-2xl sm:text-3xl md:text-4xl mb-2 text-center '>A Faster and Smarter Way to Book Train Tickets
+        <h2 className='text-2xl sm:text-3xl md:text-4xl mb-2 text-center py-5  font-semibold'>A Faster and Smarter Way to Book Train Tickets
         </h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-4 md:p-5 sm:p-7'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 '>
           <div className="order-2 md:order-1 relative group border rounded-xl transition overflow-hidden">
             <img src="/images/A Faster and Smarter Way to Book Train Tickets.jpg.jpeg" alt="" className='w-full h-full  group-hover:scale-110 transition duration-300 object-cover' />
           </div>
@@ -285,7 +285,7 @@ export default function Home() {
               </button>
             </Link>
 
-            <a className="px-8 py-4 border-2 border-white hover:bg-white hover:text-slate-900 font-semibold rounded-full transition-colors" href="tel:8663061219">
+            <a className="px-8 py-4 border-2 border-white hover:bg-white hover:text-slate-900 font-semibold rounded-full transition-colors" href="tel:+18663061219">
               Call Us expert help
             </a>
           </div>

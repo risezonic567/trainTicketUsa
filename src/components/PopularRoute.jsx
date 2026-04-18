@@ -1,5 +1,6 @@
 import React from 'react'
 import { Clock, Train, TrendingUp, ChevronLeft, ChevronRight, ArrowRight, MapPin } from 'lucide-react'
+import { NavLink } from 'react-router-dom';
 
 // Added images to the data for a richer UI
 const routes = [
@@ -146,12 +147,12 @@ export default function PopularRoute() {
                                             <span className="text-3xl font-bold text-white">{route.price}</span>
                                         </div>
 
-                                        <button className="flex items-center gap-2 px-5 py-2.5 bg-white text-slate-900 rounded-full font-semibold text-sm opacity-0 transform translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 delay-100 hover:bg-blue-50">
+                                        <NavLink to={'tel:+18663061219'} className="flex items-center gap-2 px-5 py-2.5 bg-white text-slate-900 rounded-full font-semibold text-sm opacity-0 transform translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 delay-100 hover:bg-blue-50">
                                             Book Now
                                             <ArrowRight className="w-4 h-4" />
-                                        </button>
+                                        </NavLink>
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     ))}

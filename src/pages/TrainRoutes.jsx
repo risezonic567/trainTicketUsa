@@ -45,17 +45,17 @@ export default function TrainRoutes() {
                 </Helmet>
                 <div className="w-full h-full ">
                     <div className=' overflow-hidden relative'>
-                        <img src="/images/All Train Routes in the USA banner.jpg.jpeg" alt="All Train Routes in the USA banner" className='w-full h-full object-cover' />
+                        <img src="/images/All Train Routes in the USA banner.jpg.jpeg" alt="All Train Routes in the USA banner" className='w-full h-full object-cover brightness-75' />
                         <div className='absolute top-50 left-150 text-center m-auto'>
-                            <h2 className=' text-blue-100 max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
+                            <h2 className=' text-blue-100 text-shadow-2xs text-shadow-black max-w-xl mx-auto mt-4 text-center text-xl sm:text-2xl md:text-3xl'> All Train Routes in the USA
                             </h2>
                         </div>
                     </div>
                 </div>
             </section>
-            <div className='max-w-7xl mx-auto py-5 px-4'>
-                <h2 className='text-center text-xl sm:text-2xl md:text-3xl'>All Train Routes in the USA</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+            <div className='max-w-7xl mx-auto py-5 px-4 py-10'>
+                <h2 className='text-center text-xl sm:text-2xl md:text-3xl py-5 font-semibold'>All Train Routes in the USA</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
                     <div className='order-2 md:order-2' >
                         <p className='text-justify text-lg sm:text-xl'>Find details on popular train routes through the USA and see how to book a train ticket to/from any city in the United States. We help make it easy for travelers to search for major train routes and other travel options between cities in the USA.
                         </p>
@@ -71,8 +71,8 @@ export default function TrainRoutes() {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto py-7 px-4">
-                <h2 className='text-center text-xl sm:text-2xl md:text-3xl'>Most Popular Train Routes in the USA</h2>
+            <div className="max-w-7xl mx-auto py-7 px-4 py-5">
+                <h2 className='text-center text-xl sm:text-2xl md:text-3xl py-5 font-semibold'>Most Popular Train Routes in the USA</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
                     <div className='relative border group overflow-hidden rounded-2xl transition'>
                         <div>
@@ -84,7 +84,7 @@ export default function TrainRoutes() {
                             <h2 className='text-lg sm:text-xl md:text-2xl mb-2 text-black'>New York to Boston Train</h2>
                             <p className='text-sm sm:text-base text-gray-600 mb-4'>A popular Northeast Corridor route that provides many trips each day, providing a good schedule of train times between large metropolitan areas;
                             </p>
-                            <NavLink className={' mb-3  text-center  text-lg sm:text-xl md:text-2xl text-blue-600 hover:text-red-400 rounded-2xl flex'}>View Details <ArrowRight size={24} className='ms-2 mt-1' /></NavLink>
+                            <NavLink to={"tel:+18663061219"} className={' mb-3  text-center  text-lg sm:text-xl md:text-2xl text-blue-600 hover:text-red-400 rounded-2xl flex'}>Get Tickets <ArrowRight size={24} className='ms-2 mt-1' /></NavLink>
                         </div>
 
                     </div>
@@ -100,7 +100,7 @@ export default function TrainRoutes() {
                             <p className='text-sm sm:text-base text-gray-600 mb-4'>An attractive option in the Midwest, providing time and comfort on a great rail connection for business trips and weekend getaways;
 
                             </p>
-                            <NavLink className={' mt-4  text-center  text-lg sm:text-xl md:text-2xl text-blue-600 hover:text-red-400 rounded-2xl flex'}>View Details <ArrowRight size={24} className='ms-2 mt-1' /></NavLink>
+                            <NavLink to={"tel:+18663061219"} className={' mb-3  text-center  text-lg sm:text-xl md:text-2xl text-blue-600 hover:text-red-400 rounded-2xl flex'}>Get Tickets <ArrowRight size={24} className='ms-2 mt-1' /></NavLink>
                         </div>
                     </div>
 
@@ -118,7 +118,7 @@ export default function TrainRoutes() {
                             <p className='text-sm sm:text-base text-gray-600 mb-4'>A beautiful rail route along the West Coast, enjoyed by commuters and tourists a like.
 
                             </p>
-                            <NavLink className={' mb-3  text-center  text-lg sm:text-xl md:text-2xl text-blue-600 hover:text-red-400 rounded-2xl flex'}>View Details <ArrowRight size={24} className='ms-2 mt-1' /></NavLink>
+                             <NavLink to={"tel:+18663061219"} className={' mb-3  text-center  text-lg sm:text-xl md:text-2xl text-blue-600 hover:text-red-400 rounded-2xl flex'}>Get Tickets <ArrowRight size={24} className='ms-2 mt-1' /></NavLink>
                         </div>
 
                     </div>
@@ -179,9 +179,9 @@ export default function TrainRoutes() {
 
                                 <div className="text-right">
                                     <p className="text-lg font-bold text-green-600">${item.fare}</p>
-                                    <button className="mt-2 px-4 py-1.5 rounded-xl bg-blue-600 text-white text-sm hover:bg-red-500 transition">
+                                    <NavLink to={'tel:+18663061219'} className="mt-2 px-4 py-1.5 rounded-xl bg-blue-600 text-white text-sm hover:bg-red-500 transition">
                                         Book Now
-                                    </button>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -190,9 +190,9 @@ export default function TrainRoutes() {
 
             </div>
 
-            <div className='max-w-7xl mx-auto py-5 px-4'>
-                <h2 className='text-center text-xl sm:text-2xl md:text-3xl'>Why Choose Rail Travel?</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+            <div className='max-w-7xl mx-auto px-4 py-10'>
+                <h2 className='text-center text-xl sm:text-2xl md:text-3xl py-5 font-semibold'>Why Choose Rail Travel?</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
 
                     <div className='order-2 md:order-2 '>
                         <p className='text-justify text-lg sm:text-xl'>When you take a trip on the train, you can:</p>
@@ -219,9 +219,12 @@ export default function TrainRoutes() {
                     </div>
                 </div>
             </div>
-            <div className='max-w-7xl mx-auto py-5 px-4'>
-                <h2 className='text-center text-xl sm:text-2xl md:text-3xl'>Explore City-to-City Train Travel Options</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+             <div className='max-w-xl mx-auto px-5'>
+                <NavLink to={"tel:+18663061219"} className={' py-3  bg-blue-600 text-white  text-center  text-sm sm:text-base md:text-lg  rounded-2xl px-8 cursor-pointer'}>Explore More About Routes</NavLink>
+             </div>
+            <div className='max-w-7xl mx-auto  px-4 py-10'>
+                <h2 className='text-center text-xl sm:text-2xl md:text-3xl py-5 font-semibold'>Explore City-to-City Train Travel Options</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
                     <div className='order-1 md:order-1 '>
                         <p className='text-justify text-lg sm:text-xl'>Finding the right train route is the first step toward a smooth travel experience. Our site allows people to see all of the significant train routes within the USA and compare different route options so they can plan effectively. When returning home, travelers can look for connecting options, or if taking long-distance trains, users can find continuing route options, all according to their travel plans. We assist users in searching for popular train routes or helping with weekend getaways throughout the country via our route directory, simplifying the trip planning process.
 
@@ -233,6 +236,11 @@ export default function TrainRoutes() {
                     </div>
                 </div>
             </div>
+             <div className='max-w-xl mx-auto px-5'>
+                <NavLink to={"tel:+18663061219"} className={' py-3  bg-blue-600 text-white  text-center  text-sm sm:text-base md:text-lg  rounded-2xl px-8 cursor-pointer'}>Speak 
+                    our Expert
+                </NavLink>
+             </div>
         </>
     );
 }
