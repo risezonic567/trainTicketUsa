@@ -388,7 +388,7 @@ export let blogs = [
           date of travel approaches, prices generally do not get "cheaper."
         </p>
 
-        <h2 className="text-2xl font-semibold mt-10 mb-3">
+        <h2 className="text-2xl font-semibold mt-8 mb-3">
           Not Comparing Enough Options
         </h2>
         <p>
