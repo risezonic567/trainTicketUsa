@@ -43,7 +43,7 @@ export default function Footer() {
                   to={"tel:+18663061219"}
                   className="text-sm text-gray-300 hover:text-red-300 transition"
                 >
-                  (866)306-1219
+                  +1(866)306-1219
                 </NavLink>
               </div>
             </div>
