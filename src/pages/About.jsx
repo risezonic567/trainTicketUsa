@@ -133,7 +133,7 @@ export default function About() {
     className="max-w-6xl mx-auto bg-white/80 backdrop-blur-xl border border-white/40 shadow-2xl rounded-4xl p-10 flex flex-col md:flex-row justify-between items-center gap-8 md:divide-x divide-slate-200"
   >
     {[
-      { label: "Annual Riders", value: 12.8, suffix: "M", icon: Users },
+      { label: "Annual Riders", value: 12.5, suffix: "M", icon: Users },
       { label: "Destinations", value: 500, suffix: "+", icon: Map },
       { label: "Daily Trains", value: 300, suffix: "+", icon: Train },
       { label: "Sustainability", value: 84, prefix: "-", suffix: "% CO₂", icon: Globe },
@@ -169,7 +169,7 @@ export default function About() {
   </motion.div>
 </section>
 
-            <section className='bg-red-600'>
+            <section className=''>
                 <h2 className='text-center text-3xl font-semibold py-5 '>Our Company & What We Do</h2>
                 <div className='max-w-7xl py-6 px-3 mx-auto'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
