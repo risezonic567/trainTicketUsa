@@ -10,20 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Install Dependencies
         run: npm install
 
-      - name: Build React App
+      - name: Build Project
         run: npm run build
 
-      - name: Deploy Files to GoDaddy
+      - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
           server: 184.168.99.154
-          username: deploy@trainticketsusa.com
+          username: deploy
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
