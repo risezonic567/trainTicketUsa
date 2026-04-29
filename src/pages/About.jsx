@@ -136,7 +136,7 @@ export default function About() {
       { label: "Annual Riders", value: 12.8, suffix: "M", icon: Users },
       { label: "Destinations", value: 500, suffix: "+", icon: Map },
       { label: "Daily Trains", value: 300, suffix: "+", icon: Train },
-      { label: "Sustainability", value: 83, prefix: "-", suffix: "% CO₂", icon: Globe },
+      { label: "Sustainability", value: 84, prefix: "-", suffix: "% CO₂", icon: Globe },
     ].map((stat, idx) => (
       <div
         key={idx}
