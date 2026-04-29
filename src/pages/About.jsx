@@ -133,7 +133,7 @@ export default function About() {
     className="max-w-6xl mx-auto bg-white/80 backdrop-blur-xl border border-white/40 shadow-2xl rounded-4xl p-10 flex flex-col md:flex-row justify-between items-center gap-8 md:divide-x divide-slate-200"
   >
     {[
-      { label: "Annual Riders", value: 12.5, suffix: "M", icon: Users },
+      { label: "Annual Riders", value: 12.8, suffix: "M", icon: Users },
       { label: "Destinations", value: 500, suffix: "+", icon: Map },
       { label: "Daily Trains", value: 300, suffix: "+", icon: Train },
       { label: "Sustainability", value: 83, prefix: "-", suffix: "% CO₂", icon: Globe },
