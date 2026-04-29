@@ -20,9 +20,9 @@ jobs:
         run: npm run build
 
       - name: Deploy Files to GoDaddy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
-          server: ftp.trainticketsusa.com
+          server: 184.168.99.154
           username: deploy@trainticketsusa.com
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
