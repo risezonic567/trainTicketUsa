@@ -25,5 +25,7 @@ jobs:
           server: ftp.trainticketsusa.com
           username: deploy@trainticketsusa.com
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
           local-dir: dist/
           server-dir: /public_html/
