@@ -1,0 +1,29 @@
+name: Deploy React App to GoDaddy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build React App
+        run: npm run build
+
+      - name: Deploy Files to GoDaddy
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
+        with:
+          server: ftp.trainticketsusa.com
+          username: deploy@trainticketsusa.com
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: dist/
+          server-dir: /public_html/

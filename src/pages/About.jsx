@@ -169,7 +169,7 @@ export default function About() {
   </motion.div>
 </section>
 
-            <section className=''>
+            <section className='bg-red-600'>
                 <h2 className='text-center text-3xl font-semibold py-5 '>Our Company & What We Do</h2>
                 <div className='max-w-7xl py-6 px-3 mx-auto'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
